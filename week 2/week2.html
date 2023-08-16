@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .resume {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            margin: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+            font-size: 24px;
+            color: #007bff;
+        }
+        .section p {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .skills p {
+            font-size: 16px;
+            margin: 5px 0;
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TimeTable</h1>
+    <button>
+    <table border="2" cellspacing="0" align="center">
+        <tr>
+            <th>day/period</th>
+            <th style=background-color:aqua>8:00-9:00</th>
+            <th style=background-color:aqua>9:00-10:00</th>
+            <th style=background-color:aqua>10:00-10:30</th>
+            <th style=background-color:aqua>10:30-11:30</th>
+            <th style=background-color:aqua>11:30-12:30</th>
+            <th style=background-color:aqua>12:30-1:00</th>
+            <th style=background-color:aqua>1:00-2:00</th>
+            <th style=background-color:aqua>2:00-3:00</th>
+            <th style=background-color:aqua>3:00-3:30</th>
+            <th style=background-color:aqua>3:30-4:30</th>
+        </tr>
+        <tr>
+            <td height="30" style=background-color:yellow>MONDAY</td>
+            <td height="30" style=background-color:gray></td>
+            <td colspan=3 height="30" >DL-LAB6-A2</td>
+            <td colspan=2 height="30" style=background-color:gray>LUNCH BREAK</td>
+            <td height="30">CC</td>
+            <td height="30">OS</td>
+            <td height="30" style=background-color:gray>BREAK</td>
+            <td height="30">NLP*</td>
+        </tr>
+        <tr>
+            <td height="30" style=background-color:yellow>TUESDAY</td>
+            <td height="30">MATHS</td>
+            <td height="30">NLP</td>
+            <td height="30" style=background-color:gray>BREAK</td>
+            <td height="30">CC</td>
+            <td height="30">DL</td>
+            <td colspan=2 height="30" style=background-color:gray>LUNCH BREAK</td>
+            <td colspan=3 height="30" >WT-LAB4-A1</td>
+        </tr>
+        <tr>
+            <td height="30" style=background-color:yellow>WEDNESDAY</td>
+            <td height="30" style=background-color:gray></td>
+            <td colspan=3 height="30" >WT-LAB4-A2</td>
+            <td colspan=2 height="30" style=background-color:gray>LUNCH BREAK</td>
+            <td height="30">DL</td>
+            <td height="30">MATHS</td>
+            <td height="30" style=background-color:gray>BREAK</td>
+            <td height="30">NLP</td>
+        </tr>
+        <tr>
+            <td height="30" style=background-color:yellow>THURSDAY</td>
+            <td height="30">CC*</td>
+            <td height="30">DL</td>
+            <td height="30" style=background-color:gray>BREAK</td>
+            <td height="30">OS</td>
+            <td height="30" style=background-color:gray></td>
+            <td colspan=2 height="30" style=background-color:gray>LUNCH BREAK</td>
+            <td colspan=3 height="30" >OS-LAB1-A2</td>
+        </tr>
+        <tr>
+            <td height="30" style=background-color:yellow>FRIDAY</td>
+            <td height="30" style=background-color:gray></td>
+            <td colspan=3 height="30" >OS-LAB3-A1</td>
+            <td colspan=2 height="30" style=background-color:gray>LUNCH BREAK</td>
+            <td height="30">NLP</td>
+            <td height="30">CC</td>
+            <td height="30" style=background-color:gray>BREAK</td>
+            <td height="30">DL</td>
+        </tr>
+        <tr>
+            <td height="30" style=background-color:yellow>SATURDAY</td>
+            <td height="30">OS</td>
+            <td height="30">OS*</td>
+            <td height="30" style=background-color:gray>BREAK</td>
+            <td height="30">MATHS</td>
+            <td height="30">DL*</td>
+            <td colspan=2 height="30" style=background-color:gray>LUNCH BREAK</td>
+            <td colspan=3 height="30" >DL-LAB6-A1</td>
+        </tr>
+    </table>
+</button>
+<div class="resume">
+    <h1>SPARSH AGRAWAL</h1>
+    <p>Web Developer</p>
+    
+    <div class="section">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p>Email: agsparsh03@gmail.com</p>
+            <p>Phone: +91-8076428982</p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Education</h2>
+        <p>B.Tech in Data Science</p>
+        <p>Manipal Institute of Technology, 2025</p>
+    </div>
+    
+    <div class="section">
+        <h2>Work Experience</h2>
+        <p>Web Developer, Thotnr Company</p>
+        <p>July 3,2025 - August 7,2025</p>
+        <ul>
+            <li>Developed and maintained company websites.</li>
+            <li>Collaborated with design and marketing teams.</li>
+        </ul>
+    </div>
+    
+    <div class="section skills">
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript, PHP, MySQL, Git</p>
+    </div>
+</div>
+<h1>About W3C</h1>
+    <p>The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web. It was founded by Sir Tim Berners-Lee and others in 1994. W3C's mission is to lead the Web to its full potential by creating technical specifications and guidelines that promote its evolution and ensure its interoperability.</p>
+    
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#about">About W3C</a></li>
+        <li><a href="#sir-tim">Sir Tim Berners-Lee</a></li>
+        <li><a href="#contributions">W3C's Contributions</a></li>
+        <li><a href="#standards">W3C Standards</a></li>
+    </ul>
+    
+    <h2 id="about">About W3C</h2>
+    <p>W3C plays a crucial role in developing web standards that enable consistency and compatibility across different web platforms and devices. It brings together various stakeholders, including industry leaders, developers, and researchers, to collaborate on creating guidelines and specifications for technologies like HTML, CSS, and more.</p>
+    
+    <h2 id="sir-tim">Sir Tim Berners-Lee</h2>
+    <p>Sir Timothy John Berners-Lee, OM, KBE, FRS, FREng, FRSA, DFBCS, RDI (born 8 June 1955),[1] also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web. He is a professorial research fellow at the University of Oxford[2] and a professor emeritus at the Massachusetts Institute of Technology (MIT).[3][4] Berners-Lee proposed an information management system on 12 March 1989,[5][6] then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet in mid-November.[7][8][9][10][11]
+
+        Berners-Lee is the director of the World Wide Web Consortium (W3C), which oversees the continued development of the Web. He co-founded (with his then-wife-to-be Rosemary Leith) the World Wide Web Foundation. He is a senior researcher and holder of the 3Com founder's chair at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).[12] He is a director of the Web Science Research Initiative (WSRI)[13] and a member of the advisory board of the MIT Center for Collective Intelligence.[14][15] In 2011, he was named as a member of the board of trustees of the Ford Foundation.[16] He is a founder and president of the Open Data Institute and is currently an advisor at social network MeWe</p>
+    <a href="https://www.w3.org/People/Berners-Lee/">KNOW MORE:</a>
+    <h2 id="contributions">W3C's Contributions</h2>
+    <p>Unlike the Internet Society and other international standards bodies, the W3C does not have a certification program. The W3C has decided, for now, that it is not suitable to start such a program, owing to the risk of creating more drawbacks for the community than benefits.[1</p>
+    
+    <h2 id="standards">W3C Standards</h2>
+    <p>W3C has been a driving force in creating standards that define how the web works. Some of the key standards include:</p>
+    <ul>
+        <li><a href="#html">HTML (Hypertext Markup Language)</a></li>
+        <li><a href="#css">CSS (Cascading Style Sheets)</a></li>
+        <li><a href="#svg">SVG (Scalable Vector Graphics)</a></li>
+    </ul>
+    
+    <h2 id="html">HTML (Hypertext Markup Language)</h2>
+    <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.
+        
+        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img> and <input> directly introduce content into the page. Other tags such as <p> and </p> surround and provide information about document text and may include sub-element tags. Browsers do not display the HTML tags but use them to interpret the content of the page</p>
+    
+    <h2 id="css">CSS (Cascading Style Sheets)</h2>
+    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+        CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+        
+        Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[</p>
+    
+    <h2 id="svg">SVG (Scalable Vector Graphics)</h2>
+    <p>Scalable Vector Graphics (SVG) is an XML-based vector image format for defining two-dimensional graphics, having support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium since 1999.
+
+        SVG images are defined in a vector graphics format and stored in XML text files. SVG images can thus be scaled in size without loss of quality, and SVG files can be searched, indexed, scripted, and compressed. The XML text files can be created and edited with text editors or vector graphics editors, and are rendered by the most-used web browsers.
+        
+        Early adoption was limited due to lack of support in older versions of Internet Explorer. However, as of 2011, all major desktop browsers began to support SVG. Native browser support offers various advantages, such as not requiring plugins, allowing SVG to be mixed with other content, and improving rendering and scripting reliability. Mobile support for SVG exists in various forms, with different devices and browsers supporting SVG Tiny 1.1 or 1.2. SVG can be produced using vector graphics editors and rendered into raster formats. In web-based applications, Inline SVG allows embedding SVG content within HTML documents.</p>
+
+    
+    <!-- Additional sections and content can be added here -->
+</body>
+
+</body>
+</html>
